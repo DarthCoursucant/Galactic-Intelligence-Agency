@@ -1,0 +1,109 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    /*min-height: 100%; /* Use if set on container, not body */
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header.page-header, footer.page-footer {
+    flex-grow: 0; /* 0. Only takes the place it needs */
+    flex-shrink: 0;
+    color: #fafafa;
+    background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    padding: 10px;
+  }
+  
+  main.page-body {
+    flex-grow: 1; /* 1. Let main take all available space */
+    padding: 0 10px;
+    color: black;
+  }
+
+  html, body, header.page-header, footer.page-footer, main.page-body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  #logo-header img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+  }
+
+  #logo-header {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  /*Menu Code */
+  #mymenu {
+    width: 0;
+  }
+  
+  .menubar {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .menubar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .menubar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .menubar {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .flex-menu {
+    display: flex;
+  }
+
+  .location-header {
+    margin-top: 130px;
+    margin-left: 420px;
+  }
+
+  .location-header img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #account-icon-header {
+    margin-left: 30px;
+    margin-top: 120px;
+  }
