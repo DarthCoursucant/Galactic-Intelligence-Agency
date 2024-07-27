@@ -1,0 +1,186 @@
+.hero-image-index-one, .hero-image-index-two, .hero-image-index-three, .hero-image-index-four, .hero-image-index-five {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: absolute;
+    transition: transform 2s ease;
+}
+
+html, body, main.page-body {
+    background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.wrap { flex-wrap: wrap; }
+
+.flex-boxes-home, .rest-of-the-post-index-page, .rest-of-the-post-index-page {
+    display: flex;
+}
+
+/* CATEGORY BUTTONS */
+
+#category-boz-big {
+    background-color: #ffffff;
+    border: 2px solid #a32a41;
+    border-radius: 15px;
+    width: 600px;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+#category-boz-big a {
+    text-decoration: none;
+    color: #a32a41;
+    text-align: center;
+    padding-left: 210px;
+    font-size: 50px;
+}
+
+
+#cateogory-normal-box {
+    background-color: #ffffff;
+    border: 2px solid #d30101;
+    border-radius: 15px;
+    padding-top: 50px;
+    width: 300px;
+    height: 90px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+#cateogory-normal-box a {
+    text-decoration: none;
+    color: #a32a41;
+    text-align: center;
+}
+
+#category-lower-box {
+    background-color: #ffffff;
+    border: 2px solid #d30101;
+    border-radius: 15px;
+    padding-top: 55px;
+    margin-left: 175px;
+    width: 450px;
+    height: 100px;
+}
+
+#category-lower-box a {
+    text-decoration: none;
+    color: #a32a41;
+    text-align: center;
+}
+
+.people-market-box-home {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.galaxtic-files-box-fome {
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.rebel-box-home a {
+    padding-left: 70px;
+}
+
+.imperial-box-home a, .smuggler-box-home a, .starships-files-box-home a {
+    padding-left: 60px;
+}
+
+.bounty-hunter-box-home a {
+    padding-left: 20px;
+}
+
+.mandolorian-box-home a {
+    padding-left: 30px;
+}
+
+.species-box-home a {
+    padding-left: 65px;
+}
+
+.organizations-box-home a, .black-market-box-home a {
+    padding-left: 25px;
+}
+
+.people-market-box-home a {
+    padding-left: 140px;
+}
+
+.galaxtic-files-box-fome a {
+    padding-left: 155px;
+}
+
+.gangs-sybdicates-box-home a {
+    padding-left: 5px;
+}
+
+.events-timeline-box-home a {
+    padding-left: 45px;
+}
+
+.planets-files-box-home a {
+    padding-left: 80px;
+}
+
+/* END CATEGORY BUTTONS */
+
+.hero-image-index-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://live.staticflickr.com/65535/49818284777_bd80680b7d_b.jpg')
+}
+
+.hero-image-index-two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://wallpapers-clan.com/wp-content/uploads/2023/10/star-wars-sad-baby-yoda-desktop-wallpaper-preview.jpg')
+}
+
+.hero-image-index-three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://upload.wikimedia.org/wikipedia/commons/e/ea/Star_wars._Desfile_en_Santiago_de_Compostela.jpg')
+}
+
+.hero-image-index-four {
+    background-image: linear-gradient(rgba(33, 4, 4, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1618336753974-aae8e04506aa?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN0YXIlMjB3YXJzfGVufDB8fDB8fHww')
+}
+
+.hero-image-index-five {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn12.picryl.com/photo/2016/12/31/star-wars-sturmtruppler-wallpaper-backgrounds-textures-b30d9b-1024.jpg')
+}
+
+.hero-image-index-one, .hero-image-index-two, .hero-image-index-three, .hero-image-index-four, .hero-image-index-five {
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text-index-one {
+    color: #ffffff;
+}
+
+.hero-text-index-one h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.hero-text-index-one p {
+    font-size: 20px;
+    text-align: center;
+    width: 550px;
+    margin-left: 150px;
+}
+
+#hero-home-button {
+    background-color: #a32a41;
+    width: 200px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    margin-left: 300px;
+}
+
+#hero-home-button a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 30px;
+}
