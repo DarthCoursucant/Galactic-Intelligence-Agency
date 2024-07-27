@@ -20,11 +20,10 @@ html, body, main.page-body {
 
 #category-boz-big {
     background-color: #ffffff;
-    border: 2px solid #a32a41;
     border-radius: 15px;
     width: 600px;
     height: 100px;
-    margin-left: 70px;
+    margin-left:110px;
     margin-top: 20px;
     padding-top: 40px;
 }
@@ -40,12 +39,11 @@ html, body, main.page-body {
 
 #cateogory-normal-box {
     background-color: #ffffff;
-    border: 2px solid #d30101;
     border-radius: 15px;
     padding-top: 50px;
     width: 300px;
     height: 90px;
-    margin-left: 130px;
+    margin-left: 160px;
     margin-top: 30px;
 }
 
@@ -57,12 +55,12 @@ html, body, main.page-body {
 
 #category-lower-box {
     background-color: #ffffff;
-    border: 2px solid #d30101;
     border-radius: 15px;
     padding-top: 55px;
-    margin-left: 175px;
+    margin-left: 220px;
     width: 450px;
     height: 100px;
+    margin-bottom: 100px;
 }
 
 #category-lower-box a {
