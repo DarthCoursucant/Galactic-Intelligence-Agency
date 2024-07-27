@@ -33,15 +33,17 @@ html, body {
     position: relative;
   }
 
-  #logo-header img {
-    width: 400px;
-    height: 250px;
-    border-radius: 20px;
+  #logo-header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 50px;
   }
 
   #logo-header {
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
   }
 
   /*Menu Code */
@@ -94,16 +96,11 @@ html, body {
   }
 
   .location-header {
-    margin-top: 130px;
-    margin-left: 420px;
+    margin-top: 60px;
+    margin-left: 380px;
   }
 
   .location-header img {
     width: 60px;
     height: 60px;
-  }
-
-  #account-icon-header {
-    margin-left: 30px;
-    margin-top: 120px;
   }
